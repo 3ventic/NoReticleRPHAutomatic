@@ -1,5 +1,7 @@
 # NoReticleRPHAutomatic
 
+![](https://raw.githubusercontent.com/3ventic/NoReticleRPHAutomatic/img/noreticlerph.png)
+
 This is a plugin for [RAGE Plugin Hook][1] in GTA V that removes the reticle while aiming a weapon in third person. The effect is active while the plugin is loaded.
 
 ## Usage
