@@ -15,7 +15,7 @@ namespace NoReticleRPHAutomatic
             Game.DisplayNotification("NoReticle loaded");
             while (true)
             {
-                if (Game.LocalPlayer.Character.IsAiming)
+                if (Game.LocalPlayer.Character.IsAiming || Game.LocalPlayer.Character.IsDoingDriveby)
                 {
                     Rage.Native.NativeFunction.Natives.HIDE_HUD_COMPONENT_THIS_FRAME(14L);
                 }
